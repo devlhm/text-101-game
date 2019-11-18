@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c9840c056599e4b8d9f524b6834ff6, type: 3}
+  m_Name: 1 - He Walks Away
+  m_EditorClassIdentifier: 
+  storyText: 'Suddenly, the man gets up and walks away, throwing the newspaper in
+    a trash bin near him. Weird. You continue wandering searching for some kind of
+    car mechanics.
+
+    Until, you find an old and attractive notebook on the ground.
+
+
+    Read it?
+
+    1. Yes
+
+    2. No'
+  nextStates:
+  - {fileID: 11400000, guid: d7fe1031bce8b3444b09ce4166dc7c82, type: 2}
+  - {fileID: 11400000, guid: ad2e2dfa7d9d8da4eb8b4c4c13ace54e, type: 2}
+  isEnd: 0

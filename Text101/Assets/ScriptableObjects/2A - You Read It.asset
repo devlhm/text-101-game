@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c9840c056599e4b8d9f524b6834ff6, type: 3}
+  m_Name: 2A - You Read It
+  m_EditorClassIdentifier: 
+  storyText: 'There are some strange drawings and texts in it. There are some words
+    in some strange language, followed by a "Read out loud" advice.
+
+
+    Will you?
+
+    1. Yes
+
+    2. No'
+  nextStates:
+  - {fileID: 11400000, guid: 457cc606e70a6eb4799eff79d065c56e, type: 2}
+  - {fileID: 11400000, guid: ad2e2dfa7d9d8da4eb8b4c4c13ace54e, type: 2}
+  isEnd: 0
